@@ -6,6 +6,12 @@ monitors. This is a single binary you can run from cron or CI. A natural
 companion to this workspace's `localcert` — that one issues *local dev*
 certs, this one watches *production* domains' real certs.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
